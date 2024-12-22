@@ -98,3 +98,56 @@ input:hover{
 button:hover{
   background-color: rgb(162 209 73)
 } 
+@media screen and (max-width: 450px) {
+  .container {
+    width:95%;
+  }
+  button {
+    width: 50%;
+
+}
+  h1{
+    font-size: 50%;
+    text-align: center;
+  }
+  h2{
+    color:white;
+    font-size: 35%;
+    text-align: center;
+  }
+  .wrapper {
+    max-width:85%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    width:95%;
+  }
+  .wrapper {
+    max-width:85%;
+  }
+  input {
+    display: block;
+    margin: auto;
+    width:80%;
+    margin-bottom: 5%;
+}
+}
+@media screen and (max-width: 350px) {
+  .cell {
+    font-size: calc(100% / var(--size)*3);
+
+  }
+}
+@media screen and (max-width: 300px) {
+  .cell {
+    font-size: calc(100% / var(--size)*2.5);
+
+  }
+}
+@media screen and (max-width: 250px) {
+  .cell {
+    font-size: calc(100% / var(--size)*2);
+
+  }
+}
